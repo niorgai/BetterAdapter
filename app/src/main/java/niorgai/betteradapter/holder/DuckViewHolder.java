@@ -5,6 +5,7 @@ import android.view.View;
 import android.view.ViewGroup;
 
 import niorgai.betteradapter.R;
+import niorgai.betteradapter.model.Visitable;
 
 /**
  * Created by qiu on 11/22/16.
@@ -21,7 +22,7 @@ public class DuckViewHolder extends BetterViewHolder {
     }
 
     @Override
-    public void onBindViewHolder(BetterViewHolder holder) {
+    public void onBindViewHolder(Visitable visitable) {
 
     }
 }

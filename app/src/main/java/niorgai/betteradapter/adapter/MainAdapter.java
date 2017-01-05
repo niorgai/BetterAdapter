@@ -35,7 +35,7 @@ public class MainAdapter extends RecyclerView.Adapter<BetterViewHolder> {
 
     @Override
     public void onBindViewHolder(BetterViewHolder holder, int position) {
-        holder.onBindViewHolder(holder);
+        holder.onBindViewHolder(mVisitables.get(position));
     }
 
     @Override
